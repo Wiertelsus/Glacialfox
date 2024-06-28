@@ -23,6 +23,14 @@ modules:
       # - micro
       # - starship
       - fish
+      - qemu
+      - qemu-kvm
+      - virt-manager
+      - libvirt
+      - virt-install
+      - libvirt-daemon-config-network
+      - libvirt-daemon-kvm
+      - libguestfs-tools
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
