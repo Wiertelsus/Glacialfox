@@ -1,4 +1,4 @@
-name: bluebuild-rawhide
+name: bluebuild-next
 on:
   schedule:
     - cron: "00 17 * * 0" # build at 17:00 UTC every week
@@ -22,7 +22,7 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - recipe-rawhide.yml
+          - recipe-next.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Rawhide Image
